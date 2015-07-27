@@ -1,0 +1,163 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Bootstrap Button MOD </title>
+	<meta charset="utf-8">
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="BS_ButtonSet.css">
+    <style type="text/css">
+
+    	.inner-addon{
+    		position: relative;
+    	}
+    	.inner-addon .glyphicon{
+    		position:absolute;
+    		padding: 10px;
+    	}
+		.left-addon input{
+			padding-left:30px;
+		}
+
+		.left-addon .glyphicon{
+			left:0px;
+		}
+		
+		.btn-purple { border-color: #AA66AA; background-color: #AA66AA;color:white;}
+		.btn-purple:hover {background-color: purple; color:white; }
+		.btn-purple:active {color:white; }
+		.btn-purple:focus {color:white; }
+
+		.btn-blue { border-color: #6666FF; background-color: #6666FF;color:white;}
+		.btn-blue:hover {background-color: blue; color:white; }
+		.btn-blue:active {color:white; }
+		.btn-blue:focus {color:white; }
+
+		.btn-black { border-color: #444444; background-color: #444444;color:white;}
+		.btn-black:hover {background-color:black; color:white; }
+		.btn-black:active {color:white; }
+		.btn-black:focus {color:white; }
+
+		.btn-pink {background-color: #FF00FF;color:white;}
+		.btn-pink:hover { background-color:#E600E6; color:white; }
+		.btn-pink:active {color:white; }
+		.btn-pink:focus {color:white; }
+
+
+		.btn-yellow { background-color: #FFDA47;color:white;}
+		.btn-yellow:hover {background-color:#FFCC00; color:white; }
+		.btn-yellow:active {color:white; }
+		.btn-yellow:focus {color:white; }
+
+		.btn-navy { border-color: #191977; background-color: #191977;color:white;}
+		.btn-navy:hover {background-color:#000066; color:white; }
+		.btn-navy:active {color:white; }
+		.btn-navy:focus {color:white; }
+
+		.btn-aquamarine  { border-color: #72E6BF; background-color: #72E6BF;color:white;}
+		.btn-aquamarine:hover {background-color:#67CFAC; color:white; }
+		.btn-aquamarine:active {color:white; }
+		.btn-aquamarine:focus {color:white; }
+
+		.btn-darkgrey { border-color: #A9A9A9; background-color: #A9A9A9;color:white;}
+		.btn-darkgrey:hover {background-color:#989898; color:white; }
+		.btn-darkgrey:active {color:white; }
+		.btn-darkgrey:focus {color:white; }
+
+		.btn-darkcyan { border-color: darkcyan ; background-color: darkcyan;color:white;}
+		.btn-darkcyan:hover {background-color:#007D7D; color:white; }
+		.btn-darkcyan:active {color:white; }
+		.btn-darkcyan:focus {color:white; }
+
+		.btn-tomato { border-color: tomato; background-color: tomato;color:white;}
+		.btn-tomato:hover {background-color:#E65940; color:white; }
+		.btn-tomato:active {color:white; }
+		.btn-tomato:focus {color:white; }
+
+		.btn-darkorange { border-color: darkorange; background-color: darkorange;color:white;}
+		.btn-darkorange:hover {background-color:#F18406; color:white; }
+		.btn-darkorange:active {color:white; }
+		.btn-darkorange:focus {color:white; }
+
+		.btn-indigo { border-color: indigo; background-color: indigo;color:white;}
+		.btn-indigo:hover {background-color:#3D0069; color:white; }
+		.btn-indigo:active {color:white; }
+		.btn-indigo:focus {color:white; }
+	
+
+    </style>
+ 
+</head>
+<body>
+	<br>
+	<div class="container">
+		
+		<div class="jumbotron">
+			<h1>BS Button Mod.</h1>
+			<p>List of Bootstrap Button Model</p>
+			<br>
+			<table class="table table-hover">
+				<thead>
+					<tr><th>#</th><th>Button</th><th>Name</th><th>*</th></tr>
+				</thead>
+				<tbody>
+					<tr><td>1</td><td>
+						<button id="makeFadeTog" class="btn btn-info">Untitled | #1</button>
+					</td><td>btn btn-info</td><td><i>Bootstrap default</i></td></tr>
+					<tr><td>2</td><td>
+						<button id="makeTog" class="btn btn-warning">Untitled | #2</button>
+					</td><td>btn btn-warning</td><td><i>Bootstrap default</i></td></tr>
+					<tr><td>3</td><td>
+						<button id="makeHide" class="btn btn-danger">Untitled | #3</button>
+					</td><td>btn btn-danger</td><td><i>Bootstrap default</i></td></tr>
+					<tr><td>4</td><td>
+						<button id="makeShow" class="btn btn-success">Untitled | #4</button>
+					</td><td>btn btn-success</td><td><i>Bootstrap default</i></td></tr>
+					<tr><td>5</td><td>
+						<button id="makeAddNav" class="btn btn-purple">Untitled | #5</button>
+					</td><td>btn btn-purple</td><td></td></tr>
+					<tr><td>6</td><td>
+						<button id="makeAnimate" class="btn btn-blue">Untitled | #6</button>
+					</td><td>btn btn-blue</td><td></td></tr>
+					<tr><td>7</td><td>
+						<button id="makeAnimateBack" class="btn btn-black">Untitled | #7</button>
+					</td><td>btn btn-black</td><td></td></tr>
+					<tr><td>8</td><td>
+						<button id="makeNone" class="btn btn-pink">Untitled | #8</button>
+					</td><td>btn btn-pink</td><td></td></tr>
+					<tr><td>9</td><td>
+						<button id="makeNone" class="btn btn-yellow">Untitled | #9</button>
+					</td><td>btn btn-yellow</td><td></td></tr>
+					<tr><td>10</td><td>
+						<button id="makeNone" class="btn btn-navy">Untitled | #10</button>
+					</td><td>btn btn-navy</td><td></td></tr>
+					<tr><td>11</td><td>
+						<button id="makeNone" class="btn btn-aquamarine">Untitled | #11</button>
+					</td><td>btn btn-aquamarine</td><td></td></tr>
+					<tr><td>12</td><td>
+						<button id="makeNone" class="btn btn-default">Untitled | #12</button>
+					</td><td>btn btn-default</td><td><i>Bootstrap default</i></td></tr>
+					<tr><td>13</td><td>
+						<button id="makeNone" class="btn btn-darkgrey">Untitled | #13</button>
+					</td><td>btn btn-darkgrey</td><td><i></i></td></tr>
+					<tr><td>14</td><td>
+						<button id="makeNone" class="btn btn-darkcyan">Untitled | #14</button>
+					</td><td>btn btn-darkcyan</td><td><i></i></td></tr>
+					<tr><td>15</td><td>
+						<button id="makeNone" class="btn btn-tomato">Untitled | #15</button>
+					</td><td>btn btn-tomato</td><td><i></i></td></tr>
+					<tr><td>16</td><td>
+						<button id="makeNone" class="btn btn-darkorange">Untitled | #16</button>
+					</td><td>btn btn-darkorange</td><td><i></i></td></tr>
+					<tr><td>17</td><td>
+						<button id="makeNone" class="btn btn-indigo">Untitled | #17</button>
+					</td><td>btn btn-indigo</td><td><i></i></td></tr>
+				</tbody>
+			</table>
+	
+		</div>
+		
+</body>
+</html>
